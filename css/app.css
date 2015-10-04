@@ -943,12 +943,13 @@ select {
   text-align: right; }
 
 body {
-  font-family: "Proxima Nova", proxima-nova, Helvetica, Arial, sans-serif; }
+  font-family: "Proxima Nova", proxima-nova, Helvetica, Arial, sans-serif;
+  color: #536168; }
 
 h1 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 400;
-  color: #3D3D3D;
+  color: #4D616A;
   margin-bottom: .25rem; }
 
 h2 {
@@ -981,7 +982,7 @@ header {
     height: 8px;
     border-radius: 4px;
     margin-right: 4px;
-    background-color: #E54450; }
+    background-color: #E91E63; }
 
 section.contact .slack, section.contact .social {
   background-color: #EAF0F4;
@@ -1028,26 +1029,25 @@ section.announcements p {
   font-size: 14px;
   color: #444444; }
 
-section.schedule .separator {
-  margin-top: .25rem;
-  height: 1px; }
-  section.schedule .separator div {
-    height: 100%;
-    width: 100%;
-    background-color: #E0E0E0; }
-
-section.schedule .table-header {
-  font-weight: 600;
-  margin-bottom: 1rem; }
-
-section.schedule span.end-time {
-  display: block;
-  font-size: 14px;
-  color: #838383;
-  font-weight: 300;
-  line-height: 12px; }
-
-section.schedule .table-entry {
-  margin-bottom: 1rem; }
+section.schedule {
+  padding-bottom: 3rem; }
+  section.schedule .separator {
+    margin-top: .25rem;
+    height: 1px; }
+    section.schedule .separator div {
+      height: 100%;
+      width: 100%;
+      background-color: #E0E0E0; }
+  section.schedule .table-header {
+    font-weight: 600;
+    margin-bottom: 1rem; }
+  section.schedule span.end-time {
+    display: block;
+    font-size: 14px;
+    color: #838383;
+    font-weight: 300;
+    line-height: 12px; }
+  section.schedule .table-entry {
+    margin-bottom: 1rem; }
 
 /*# sourceMappingURL=app.css.map */

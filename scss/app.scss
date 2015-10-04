@@ -1,24 +1,20 @@
 @import "foundation/settings";
 @import "foundation/components/grid";
+@import "variables";
 
-.text-center {
-    text-align: center;
-}
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-align: right;
-}
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
 
 body {
-    font-family: "Proxima Nova", proxima-nova, Helvetica, Arial, sans-serif;
+    font-family: $main-font-stack;
+    color: $main-text-color;
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 400;
-    color: #3D3D3D;
+    color: $title-text-color;
     margin-bottom: .25rem;
 }
 
@@ -59,7 +55,7 @@ header {
         height: 8px;
         border-radius: 4px;
         margin-right: 4px;
-        background-color: #E54450;
+        background-color: $pink-text-color;
     }
 }
 
@@ -128,6 +124,8 @@ section.announcements {
 
 
 section.schedule {
+    padding-bottom: 3rem;
+
     .separator {
         margin-top: .25rem;
         height: 1px;
