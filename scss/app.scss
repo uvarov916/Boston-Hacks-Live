@@ -26,13 +26,16 @@ h2 {
     font-size: 22px;
     font-weight: 600;
     color: #1A1A1A;
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
 }
 
 h3 {
     font-size: 16px;
     color: #262626;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: -.25rem;
+    margin-top: 0;
 }
 
 header {
@@ -40,8 +43,14 @@ header {
     font-size: 18px;
     color: #505050;
 
+    span.text {
+        display: inline-block;
+        padding: .5rem 0;
+    }
+
     .logo {
         margin-right: 20px;
+        width: 34px;
     }
 
     .circle {
@@ -64,6 +73,10 @@ section.contact {
         margin-bottom: 10px;
         padding: 2rem 0;
 
+        img {
+            width: 106px;
+        }
+
         p {
             color: #5A5A5A;
         }
@@ -74,7 +87,7 @@ section.contact {
             height: 38px;
             padding-left: 20px;
             font-size: 16px;
-            width: 220px;
+            width: 240px;
             font-family: "Proxima Nova";
         }
 
@@ -97,6 +110,7 @@ section.contact {
 
 section.announcements {
     > .row {
+        padding-bottom: 2rem;
         border-bottom: 1px solid #EAF0F4;
     }
 
@@ -109,5 +123,36 @@ section.announcements {
         margin-top: .3rem;
         font-size: 14px;
         color: #444444;
+    }
+}
+
+
+section.schedule {
+    .separator {
+        margin-top: .25rem;
+        height: 1px;
+
+        div {
+            height: 100%;
+            width: 100%;
+            background-color: #E0E0E0;
+        }
+    }
+
+    .table-header {
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    span.end-time {
+        display: block;
+        font-size: 14px;
+        color: #838383;
+        font-weight: 300;
+        line-height: 12px;
+    }
+
+    .table-entry {
+        margin-bottom: 1rem;
     }
 }
